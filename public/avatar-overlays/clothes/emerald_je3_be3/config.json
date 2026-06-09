@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "partType": "clothes",
+  "name": "Emerald_JE3_BE3",
+  "slug": "emerald_je3_be3",
+  "front": {
+    "imageUrl": "/avatar-overlays/clothes/emerald_je3_be3/front.png",
+    "width": 160,
+    "height": 160,
+    "relativePosition": {
+      "x": 0,
+      "y": 0
+    },
+    "zIndex": 65,
+    "visible": true,
+    "selectedTarget": {
+      "partType": "torso",
+      "boneName": "root"
+    }
+  },
+  "thumbnailFacing": "front",
+  "updatedAt": "2026-06-06T11:35:53.320Z"
+}

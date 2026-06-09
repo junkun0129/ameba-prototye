@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "partType": "mouth",
+  "name": "Rectangle 310",
+  "slug": "rectangle-310",
+  "front": {
+    "imageUrl": "/avatar-overlays/mouth/rectangle-310/front.png",
+    "width": 34,
+    "height": 5,
+    "relativePosition": {
+      "x": -1,
+      "y": -12
+    },
+    "zIndex": 85,
+    "visible": true,
+    "selectedTarget": {
+      "partType": "head",
+      "boneName": "neck"
+    }
+  },
+  "thumbnailFacing": "front",
+  "updatedAt": "2026-06-06T23:10:42.157Z"
+}

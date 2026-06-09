@@ -1,0 +1,38 @@
+{
+    "version": 1,
+    "partType": "eyes",
+    "name": "demo eyes set",
+    "slug": "demo-eyes",
+    "front": {
+        "imageUrl": "/avatar-editor-assets/body/head/Group_481.png",
+        "width": 78,
+        "height": 76,
+        "relativePosition": {
+            "x": 0,
+            "y": -4
+        },
+        "zIndex": 82,
+        "visible": true,
+        "selectedTarget": {
+            "partType": "head",
+            "boneName": "neck"
+        }
+    },
+    "back": {
+        "imageUrl": "/avatar-editor-assets/body/head/Group_481.png",
+        "width": 78,
+        "height": 76,
+        "relativePosition": {
+            "x": 0,
+            "y": -4
+        },
+        "zIndex": 82,
+        "visible": true,
+        "selectedTarget": {
+            "partType": "head",
+            "boneName": "neck"
+        }
+    },
+    "thumbnailFacing": "front",
+    "updatedAt": "2026-06-06T00:00:00.000Z"
+}

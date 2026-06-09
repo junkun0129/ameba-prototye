@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "partType": "nose",
+  "name": "Rectangle 309",
+  "slug": "rectangle-309",
+  "front": {
+    "imageUrl": "/avatar-overlays/nose/rectangle-309/front.png",
+    "width": 16,
+    "height": 5,
+    "relativePosition": {
+      "x": -1,
+      "y": -23
+    },
+    "zIndex": 84,
+    "visible": true,
+    "selectedTarget": {
+      "partType": "head",
+      "boneName": "neck"
+    }
+  },
+  "thumbnailFacing": "front",
+  "updatedAt": "2026-06-06T23:09:44.306Z"
+}

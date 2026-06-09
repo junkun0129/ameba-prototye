@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "partType": "eyes",
+  "name": "Group 496",
+  "slug": "group-496",
+  "front": {
+    "imageUrl": "/avatar-overlays/eyes/group-496/front.png",
+    "width": 57,
+    "height": 13,
+    "relativePosition": {
+      "x": 0,
+      "y": -34
+    },
+    "zIndex": 82,
+    "visible": true,
+    "selectedTarget": {
+      "partType": "head",
+      "boneName": "neck"
+    }
+  },
+  "back": {
+    "imageUrl": "/avatar-overlays/eyes/group-496/back.png",
+    "width": 36,
+    "height": 16,
+    "relativePosition": {
+      "x": 0,
+      "y": -4
+    },
+    "zIndex": 82,
+    "visible": false,
+    "selectedTarget": {
+      "partType": "head",
+      "boneName": "neck"
+    }
+  },
+  "thumbnailFacing": "front",
+  "updatedAt": "2026-06-06T23:08:24.706Z"
+}

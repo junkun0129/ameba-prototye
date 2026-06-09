@@ -1,0 +1,975 @@
+{
+  "version": 1,
+  "name": "body-bundle",
+  "slug": "body-bundle",
+  "rig": {
+    "version": 1,
+    "canvasSize": 200,
+    "facing": {
+      "front": {
+        "bodyParts": [
+          {
+            "id": "head-default",
+            "type": "head",
+            "name": "Ellipse 159",
+            "width": 112,
+            "height": 93,
+            "src": "/avatar-editor-assets/body/head/Ellipse_159.png?v=1780737756095",
+            "atlasFrameId": "Ellipse 159",
+            "zIndex": 60,
+            "pivot": {
+              "x": 100,
+              "y": 56
+            },
+            "position": {
+              "x": 98,
+              "y": 63
+            }
+          },
+          {
+            "id": "torso-default",
+            "type": "torso",
+            "name": "Ellipse 154",
+            "width": 42,
+            "height": 54,
+            "src": "/avatar-editor-assets/body/torso/Ellipse_154.png?v=1780737738339",
+            "atlasFrameId": "Ellipse 154",
+            "zIndex": 40,
+            "pivot": {
+              "x": 100,
+              "y": 96
+            },
+            "position": {
+              "x": 100,
+              "y": 133
+            }
+          },
+          {
+            "id": "leftArm-default",
+            "type": "leftArm",
+            "name": "Ellipse 161",
+            "width": 30,
+            "height": 48,
+            "src": "/avatar-editor-assets/body/leftArm/Ellipse_161.png?v=1780737745554",
+            "atlasFrameId": "Ellipse 161",
+            "zIndex": 30,
+            "pivot": {
+              "x": 88,
+              "y": 86
+            },
+            "position": {
+              "x": 79,
+              "y": 140
+            }
+          },
+          {
+            "id": "rightArm-default",
+            "type": "rightArm",
+            "name": "Ellipse 163",
+            "width": 36,
+            "height": 44,
+            "src": "/avatar-editor-assets/body/rightArm/Ellipse_163.png?v=1780737749922",
+            "atlasFrameId": "Ellipse 163",
+            "zIndex": 50,
+            "pivot": {
+              "x": 112,
+              "y": 86
+            },
+            "position": {
+              "x": 118,
+              "y": 140
+            }
+          },
+          {
+            "id": "leftLeg-default",
+            "type": "leftLeg",
+            "name": "Group 486",
+            "width": 20,
+            "height": 37,
+            "src": "/avatar-editor-assets/body/leftLeg/Group_486.png?v=1780737649730",
+            "atlasFrameId": "Group 486",
+            "zIndex": 10,
+            "pivot": {
+              "x": 92,
+              "y": 128
+            },
+            "position": {
+              "x": 88,
+              "y": 169
+            },
+            "visible": true
+          },
+          {
+            "id": "rightLeg-default",
+            "type": "rightLeg",
+            "name": "Group 486",
+            "width": 20,
+            "height": 37,
+            "src": "/avatar-editor-assets/body/rightLeg/Group_486.png?v=1780737726045",
+            "atlasFrameId": "Group 486",
+            "zIndex": 20,
+            "pivot": {
+              "x": 108,
+              "y": 128
+            },
+            "position": {
+              "x": 103,
+              "y": 171
+            },
+            "visible": true
+          }
+        ],
+        "overlays": [
+          {
+            "id": "backHair-default",
+            "type": "backHair",
+            "name": "後ろ髪 default",
+            "width": 84,
+            "height": 88,
+            "src": "",
+            "atlasFrameId": "backHair-default",
+            "zIndex": 55,
+            "defaultTarget": {
+              "partType": "head",
+              "boneName": "neck"
+            },
+            "selectedTarget": {
+              "partType": "head",
+              "boneName": "neck"
+            },
+            "relativePosition": {
+              "x": 0,
+              "y": -8
+            },
+            "visible": true
+          },
+          {
+            "id": "frontHair-default",
+            "type": "frontHair",
+            "name": "前髪 default",
+            "width": 78,
+            "height": 38,
+            "src": "",
+            "atlasFrameId": "frontHair-default",
+            "zIndex": 80,
+            "defaultTarget": {
+              "partType": "head",
+              "boneName": "headTop"
+            },
+            "selectedTarget": {
+              "partType": "head",
+              "boneName": "headTop"
+            },
+            "relativePosition": {
+              "x": 0,
+              "y": -4
+            },
+            "visible": true
+          },
+          {
+            "id": "eyes-default",
+            "type": "eyes",
+            "name": "Group 496",
+            "width": 57,
+            "height": 13,
+            "src": "/avatar-overlays/eyes/group-496/front.png",
+            "atlasFrameId": "eyes-default",
+            "zIndex": 82,
+            "defaultTarget": {
+              "partType": "head",
+              "boneName": "neck"
+            },
+            "selectedTarget": {
+              "partType": "head",
+              "boneName": "neck"
+            },
+            "relativePosition": {
+              "x": 0,
+              "y": -4
+            },
+            "visible": true
+          },
+          {
+            "id": "eyebrows-default",
+            "type": "eyebrows",
+            "name": "眉毛 default",
+            "width": 40,
+            "height": 12,
+            "src": "",
+            "atlasFrameId": "eyebrows-default",
+            "zIndex": 83,
+            "defaultTarget": {
+              "partType": "head",
+              "boneName": "headTop"
+            },
+            "selectedTarget": {
+              "partType": "head",
+              "boneName": "headTop"
+            },
+            "relativePosition": {
+              "x": 0,
+              "y": -14
+            },
+            "visible": true
+          },
+          {
+            "id": "nose-default",
+            "type": "nose",
+            "name": "Rectangle 309",
+            "width": 16,
+            "height": 5,
+            "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAFCAYAAABM6GxJAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAOdEVYdFNvZnR3YXJlAEZpZ21hnrGWYwAAAKRJREFUeAGVj70NwkAMhZ/vqKDJCGGETJCUQMcGMAAiJdAEGmhPsABsAA2UZJSMkAq6My/SpaNIPsmS/+0nIK9THovomm4kgkgVtaoK44rGmqSsR4BcP185zPeuRkDC8NurPgTGTbeuwh/YlwF+wQOpqlmyr2wXMOmLyeY8Rgeex1VurRTtN4bXm6BER2a7i/PeJApkoyHiAbXerDV39CDITBr/B2qQPD3tzChpAAAAAElFTkSuQmCC",
+            "atlasFrameId": "Rectangle 309",
+            "zIndex": 84,
+            "defaultTarget": {
+              "partType": "head",
+              "boneName": "neck"
+            },
+            "selectedTarget": {
+              "partType": "head",
+              "boneName": "neck"
+            },
+            "relativePosition": {
+              "x": 0,
+              "y": 8
+            },
+            "visible": true
+          },
+          {
+            "id": "mouth-default",
+            "type": "mouth",
+            "name": "Rectangle 310",
+            "width": 34,
+            "height": 5,
+            "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAFCAYAAAAg7j5MAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAOdEVYdFNvZnR3YXJlAEZpZ21hnrGWYwAAAJ5JREFUeAG9kMENgkAQRf9MBZSwpeBF4007oALwpPFkOEk8oRXYgUeJFy3BDthGYPwY9yY34CWT/M1OMi9fqiKrRey62F1yTAxvPwFzqrpWM8k5SVWk9f24cZiIxynNKBEzuqZpVxI+KJGwmQPjS1XO8235xkjwVqza3swQ8enNdCZ/lr5CnIhNdTIew+J+TSBILPelF/RbO4xMJxDyBzlGPLtEYFA8AAAAAElFTkSuQmCC",
+            "atlasFrameId": "Rectangle 310",
+            "zIndex": 85,
+            "defaultTarget": {
+              "partType": "head",
+              "boneName": "neck"
+            },
+            "selectedTarget": {
+              "partType": "head",
+              "boneName": "neck"
+            },
+            "relativePosition": {
+              "x": 0,
+              "y": 18
+            },
+            "visible": true
+          },
+          {
+            "id": "clothes-default",
+            "type": "clothes",
+            "name": "Emerald_JE3_BE3",
+            "width": 160,
+            "height": 160,
+            "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAACgBAMAAAB54XoeAAAAIVBMVEUAAAAALQAAUwAAexgAlSkAqiwX3WJB84SC9q2v/c3b/+vL/0L5AAAAAXRSTlMAQObYZgAAAJRJREFUeNrtzAEJwzAQQNFZqIVZiIVYiIWzUAuxUAtTOT6FHhyFQYEB5D8B7yVJ0n+8bxgaGtbrg/0SOFdDQ8O8DmQ4ENiwamhoWK+7sK6GhquGB+KS9UDHgGFlaDgx0GBoaGhoaPgknChhwLAyNNzR0LF2aGiY60BHQ14Tea0WGhr+XgN5GRoanrYiL0NDQ0mSHvgCKBcpgeyi22sAAAAASUVORK5CYII=",
+            "atlasFrameId": "Emerald_JE3_BE3",
+            "zIndex": 65,
+            "defaultTarget": {
+              "partType": "torso",
+              "boneName": "root"
+            },
+            "selectedTarget": {
+              "partType": "torso",
+              "boneName": "root"
+            },
+            "relativePosition": {
+              "x": 0,
+              "y": 0
+            },
+            "visible": false
+          },
+          {
+            "id": "pants-default",
+            "type": "pants",
+            "name": "ズボン default",
+            "width": 88,
+            "height": 82,
+            "src": "",
+            "atlasFrameId": "pants-default",
+            "zIndex": 25,
+            "defaultTarget": {
+              "partType": "torso",
+              "boneName": "hip"
+            },
+            "selectedTarget": {
+              "partType": "torso",
+              "boneName": "hip"
+            },
+            "relativePosition": {
+              "x": 0,
+              "y": 22
+            },
+            "visible": true
+          },
+          {
+            "id": "shoes-default",
+            "type": "shoes",
+            "name": "靴 default",
+            "width": 64,
+            "height": 24,
+            "src": "",
+            "atlasFrameId": "shoes-default",
+            "zIndex": 26,
+            "defaultTarget": {
+              "partType": "leftLeg",
+              "boneName": "leftFoot"
+            },
+            "selectedTarget": {
+              "partType": "leftLeg",
+              "boneName": "leftFoot"
+            },
+            "relativePosition": {
+              "x": 0,
+              "y": 22
+            },
+            "visible": true
+          }
+        ],
+        "bones": [
+          {
+            "name": "root",
+            "parent": null,
+            "partType": "torso",
+            "point": {
+              "x": 98,
+              "y": 118
+            }
+          },
+          {
+            "name": "neck",
+            "parent": "root",
+            "partType": "head",
+            "point": {
+              "x": 98,
+              "y": 104
+            }
+          },
+          {
+            "name": "headTop",
+            "parent": "neck",
+            "partType": "head",
+            "point": {
+              "x": 99,
+              "y": 18
+            }
+          },
+          {
+            "name": "leftShoulder",
+            "parent": "root",
+            "partType": "leftArm",
+            "point": {
+              "x": 85,
+              "y": 117
+            }
+          },
+          {
+            "name": "rightShoulder",
+            "parent": "root",
+            "partType": "rightArm",
+            "point": {
+              "x": 113,
+              "y": 116
+            }
+          },
+          {
+            "name": "leftElbow",
+            "parent": "leftShoulder",
+            "partType": "leftArm",
+            "point": {
+              "x": 74,
+              "y": 141
+            }
+          },
+          {
+            "name": "rightElbow",
+            "parent": "rightShoulder",
+            "partType": "rightArm",
+            "point": {
+              "x": 122,
+              "y": 138
+            }
+          },
+          {
+            "name": "leftHand",
+            "parent": "leftElbow",
+            "partType": "leftArm",
+            "point": {
+              "x": 63,
+              "y": 162
+            }
+          },
+          {
+            "name": "rightHand",
+            "parent": "rightElbow",
+            "partType": "rightArm",
+            "point": {
+              "x": 136,
+              "y": 155
+            }
+          },
+          {
+            "name": "hip",
+            "parent": "root",
+            "partType": "torso",
+            "point": {
+              "x": 99,
+              "y": 147
+            }
+          },
+          {
+            "name": "leftKnee",
+            "parent": "hip",
+            "partType": "leftLeg",
+            "point": {
+              "x": 88,
+              "y": 164
+            }
+          },
+          {
+            "name": "rightKnee",
+            "parent": "hip",
+            "partType": "rightLeg",
+            "point": {
+              "x": 106,
+              "y": 168
+            }
+          },
+          {
+            "name": "leftFoot",
+            "parent": "leftKnee",
+            "partType": "leftLeg",
+            "point": {
+              "x": 86,
+              "y": 177
+            }
+          },
+          {
+            "name": "rightFoot",
+            "parent": "rightKnee",
+            "partType": "rightLeg",
+            "point": {
+              "x": 101,
+              "y": 181
+            }
+          }
+        ]
+      },
+      "back": {
+        "bodyParts": [
+          {
+            "id": "head-default",
+            "type": "head",
+            "name": "Ellipse 159",
+            "width": 112,
+            "height": 93,
+            "src": "/avatar-editor-assets/body/head/Ellipse_159.png?v=1780738845452",
+            "atlasFrameId": "Ellipse 159",
+            "zIndex": 58,
+            "pivot": {
+              "x": 100,
+              "y": 56
+            },
+            "position": {
+              "x": 98,
+              "y": 62
+            }
+          },
+          {
+            "id": "torso-default",
+            "type": "torso",
+            "name": "Ellipse 154",
+            "width": 42,
+            "height": 54,
+            "src": "/avatar-editor-assets/body/torso/Ellipse_154.png?v=1780738831555",
+            "atlasFrameId": "Ellipse 154",
+            "zIndex": 40,
+            "pivot": {
+              "x": 100,
+              "y": 96
+            },
+            "position": {
+              "x": 98,
+              "y": 131
+            }
+          },
+          {
+            "id": "leftArm-default",
+            "type": "leftArm",
+            "name": "Ellipse 161",
+            "width": 30,
+            "height": 48,
+            "src": "/avatar-editor-assets/body/leftArm/Ellipse_161.png?v=1780738838602",
+            "atlasFrameId": "Ellipse 161",
+            "zIndex": 30,
+            "pivot": {
+              "x": 88,
+              "y": 86
+            },
+            "position": {
+              "x": 82,
+              "y": 141
+            }
+          },
+          {
+            "id": "rightArm-default",
+            "type": "rightArm",
+            "name": "Ellipse 163",
+            "width": 36,
+            "height": 44,
+            "src": "/avatar-editor-assets/body/rightArm/Ellipse_163.png?v=1780738841846",
+            "atlasFrameId": "Ellipse 163",
+            "zIndex": 50,
+            "pivot": {
+              "x": 112,
+              "y": 86
+            },
+            "position": {
+              "x": 114,
+              "y": 140
+            }
+          },
+          {
+            "id": "leftLeg-default",
+            "type": "leftLeg",
+            "name": "Group 486",
+            "width": 20,
+            "height": 37,
+            "src": "/avatar-editor-assets/body/leftLeg/Group_486.png?v=1780738812036",
+            "atlasFrameId": "Group 486",
+            "zIndex": 10,
+            "pivot": {
+              "x": 92,
+              "y": 128
+            },
+            "position": {
+              "x": 88,
+              "y": 167
+            }
+          },
+          {
+            "id": "rightLeg-default",
+            "type": "rightLeg",
+            "name": "Group 486",
+            "width": 20,
+            "height": 37,
+            "src": "/avatar-editor-assets/body/rightLeg/Group_486.png?v=1780738823671",
+            "atlasFrameId": "Group 486",
+            "zIndex": 20,
+            "pivot": {
+              "x": 108,
+              "y": 128
+            },
+            "position": {
+              "x": 102,
+              "y": 168
+            }
+          }
+        ],
+        "overlays": [
+          {
+            "id": "backHair-default",
+            "type": "backHair",
+            "name": "後ろ髪 default",
+            "width": 84,
+            "height": 88,
+            "src": "",
+            "atlasFrameId": "backHair-default",
+            "zIndex": 84,
+            "defaultTarget": {
+              "partType": "head",
+              "boneName": "neck"
+            },
+            "selectedTarget": {
+              "partType": "head",
+              "boneName": "neck"
+            },
+            "relativePosition": {
+              "x": 0,
+              "y": -2
+            },
+            "visible": true
+          },
+          {
+            "id": "frontHair-default",
+            "type": "frontHair",
+            "name": "前髪 default",
+            "width": 78,
+            "height": 38,
+            "src": "",
+            "atlasFrameId": "frontHair-default",
+            "zIndex": 80,
+            "defaultTarget": {
+              "partType": "head",
+              "boneName": "headTop"
+            },
+            "selectedTarget": {
+              "partType": "head",
+              "boneName": "headTop"
+            },
+            "relativePosition": {
+              "x": 0,
+              "y": -4
+            },
+            "visible": true
+          },
+          {
+            "id": "eyes-default",
+            "type": "eyes",
+            "name": "Group 496",
+            "width": 36,
+            "height": 16,
+            "src": "/avatar-overlays/eyes/group-496/back.png",
+            "atlasFrameId": "eyes-default",
+            "zIndex": 82,
+            "defaultTarget": {
+              "partType": "head",
+              "boneName": "neck"
+            },
+            "selectedTarget": {
+              "partType": "head",
+              "boneName": "neck"
+            },
+            "relativePosition": {
+              "x": 0,
+              "y": -4
+            },
+            "visible": false
+          },
+          {
+            "id": "eyebrows-default",
+            "type": "eyebrows",
+            "name": "眉毛 default",
+            "width": 40,
+            "height": 12,
+            "src": "",
+            "atlasFrameId": "eyebrows-default",
+            "zIndex": 83,
+            "defaultTarget": {
+              "partType": "head",
+              "boneName": "headTop"
+            },
+            "selectedTarget": {
+              "partType": "head",
+              "boneName": "headTop"
+            },
+            "relativePosition": {
+              "x": 0,
+              "y": -14
+            },
+            "visible": true
+          },
+          {
+            "id": "nose-default",
+            "type": "nose",
+            "name": "鼻 default",
+            "width": 10,
+            "height": 14,
+            "src": "",
+            "atlasFrameId": "nose-default",
+            "zIndex": 84,
+            "defaultTarget": {
+              "partType": "head",
+              "boneName": "neck"
+            },
+            "selectedTarget": {
+              "partType": "head",
+              "boneName": "neck"
+            },
+            "relativePosition": {
+              "x": 0,
+              "y": 8
+            },
+            "visible": true
+          },
+          {
+            "id": "mouth-default",
+            "type": "mouth",
+            "name": "口 default",
+            "width": 18,
+            "height": 12,
+            "src": "",
+            "atlasFrameId": "mouth-default",
+            "zIndex": 85,
+            "defaultTarget": {
+              "partType": "head",
+              "boneName": "neck"
+            },
+            "selectedTarget": {
+              "partType": "head",
+              "boneName": "neck"
+            },
+            "relativePosition": {
+              "x": 0,
+              "y": 18
+            },
+            "visible": true
+          },
+          {
+            "id": "clothes-default",
+            "type": "clothes",
+            "name": "服 default",
+            "width": 96,
+            "height": 88,
+            "src": "",
+            "atlasFrameId": "clothes-default",
+            "zIndex": 65,
+            "defaultTarget": {
+              "partType": "torso",
+              "boneName": "root"
+            },
+            "selectedTarget": {
+              "partType": "torso",
+              "boneName": "root"
+            },
+            "relativePosition": {
+              "x": 0,
+              "y": 0
+            },
+            "visible": true
+          },
+          {
+            "id": "pants-default",
+            "type": "pants",
+            "name": "ズボン default",
+            "width": 88,
+            "height": 82,
+            "src": "",
+            "atlasFrameId": "pants-default",
+            "zIndex": 25,
+            "defaultTarget": {
+              "partType": "torso",
+              "boneName": "hip"
+            },
+            "selectedTarget": {
+              "partType": "torso",
+              "boneName": "hip"
+            },
+            "relativePosition": {
+              "x": 0,
+              "y": 22
+            },
+            "visible": true
+          },
+          {
+            "id": "shoes-default",
+            "type": "shoes",
+            "name": "靴 default",
+            "width": 64,
+            "height": 24,
+            "src": "",
+            "atlasFrameId": "shoes-default",
+            "zIndex": 26,
+            "defaultTarget": {
+              "partType": "leftLeg",
+              "boneName": "leftFoot"
+            },
+            "selectedTarget": {
+              "partType": "leftLeg",
+              "boneName": "leftFoot"
+            },
+            "relativePosition": {
+              "x": 0,
+              "y": 22
+            },
+            "visible": true
+          }
+        ],
+        "bones": [
+          {
+            "name": "root",
+            "parent": null,
+            "partType": "torso",
+            "point": {
+              "x": 100,
+              "y": 100
+            }
+          },
+          {
+            "name": "neck",
+            "parent": "root",
+            "partType": "head",
+            "point": {
+              "x": 100,
+              "y": 68
+            }
+          },
+          {
+            "name": "headTop",
+            "parent": "neck",
+            "partType": "head",
+            "point": {
+              "x": 100,
+              "y": 34
+            }
+          },
+          {
+            "name": "leftShoulder",
+            "parent": "root",
+            "partType": "leftArm",
+            "point": {
+              "x": 74,
+              "y": 92
+            }
+          },
+          {
+            "name": "rightShoulder",
+            "parent": "root",
+            "partType": "rightArm",
+            "point": {
+              "x": 126,
+              "y": 92
+            }
+          },
+          {
+            "name": "leftElbow",
+            "parent": "leftShoulder",
+            "partType": "leftArm",
+            "point": {
+              "x": 60,
+              "y": 122
+            }
+          },
+          {
+            "name": "rightElbow",
+            "parent": "rightShoulder",
+            "partType": "rightArm",
+            "point": {
+              "x": 140,
+              "y": 122
+            }
+          },
+          {
+            "name": "leftHand",
+            "parent": "leftElbow",
+            "partType": "leftArm",
+            "point": {
+              "x": 52,
+              "y": 152
+            }
+          },
+          {
+            "name": "rightHand",
+            "parent": "rightElbow",
+            "partType": "rightArm",
+            "point": {
+              "x": 148,
+              "y": 152
+            }
+          },
+          {
+            "name": "hip",
+            "parent": "root",
+            "partType": "torso",
+            "point": {
+              "x": 100,
+              "y": 128
+            }
+          },
+          {
+            "name": "leftKnee",
+            "parent": "hip",
+            "partType": "leftLeg",
+            "point": {
+              "x": 92,
+              "y": 154
+            }
+          },
+          {
+            "name": "rightKnee",
+            "parent": "hip",
+            "partType": "rightLeg",
+            "point": {
+              "x": 108,
+              "y": 154
+            }
+          },
+          {
+            "name": "leftFoot",
+            "parent": "leftKnee",
+            "partType": "leftLeg",
+            "point": {
+              "x": 92,
+              "y": 188
+            }
+          },
+          {
+            "name": "rightFoot",
+            "parent": "rightKnee",
+            "partType": "rightLeg",
+            "point": {
+              "x": 108,
+              "y": 188
+            }
+          }
+        ]
+      }
+    },
+    "parentMap": {
+      "backHair": [
+        "head"
+      ],
+      "frontHair": [
+        "head"
+      ],
+      "eyes": [
+        "head"
+      ],
+      "eyebrows": [
+        "head"
+      ],
+      "nose": [
+        "head"
+      ],
+      "mouth": [
+        "head"
+      ],
+      "clothes": [
+        "torso",
+        "leftArm",
+        "rightArm"
+      ],
+      "pants": [
+        "torso",
+        "leftLeg",
+        "rightLeg"
+      ],
+      "shoes": [
+        "leftLeg",
+        "rightLeg"
+      ]
+    },
+    "walkCycle": {
+      "speed": 2.4,
+      "armSwing": 0.42,
+      "legSwing": 0.58,
+      "bodyBounce": 5
+    },
+    "previewSelection": {
+      "bodyPartIds": {
+        "head": "head-default",
+        "torso": "torso-default",
+        "leftArm": "leftArm-default",
+        "rightArm": "rightArm-default",
+        "leftLeg": "leftLeg-default",
+        "rightLeg": "rightLeg-default"
+      },
+      "overlayPartIds": {
+        "backHair": "backHair-default",
+        "frontHair": "frontHair-default",
+        "eyes": "eyes-default",
+        "eyebrows": "eyebrows-default",
+        "nose": "nose-default",
+        "mouth": "mouth-default",
+        "clothes": "clothes-default",
+        "pants": "pants-default",
+        "shoes": "shoes-default"
+      }
+    },
+    "activeFacing": "front",
+    "exportedAt": "2026-06-06T11:34:22.695Z"
+  },
+  "updatedAt": "2026-06-06T11:37:58.219Z"
+}
